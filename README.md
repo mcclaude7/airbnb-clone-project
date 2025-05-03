@@ -45,11 +45,11 @@ This is a full-stack clone of the Airbnb platform, designed to replicate key fea
 
 -CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
-# 🗃️ Database Design
+# Database Design
 
 The database schema for this project is designed to support core Airbnb functionality, with a focus on scalability, normalization, and efficient data relationships.
 
-## 🔑 Key Entities & Fields
+## Key Entities & Fields
 
 ### 1. **User**
 Represents individuals using the platform as guests or hosts.
@@ -93,7 +93,7 @@ Represents a payment transaction for a booking.
 - `payment_method`: Credit card, PayPal, etc.
 - `payment_status`: Pending, Completed, Failed
 
-## 🔗 Entity Relationships
+## Entity Relationships
 
 - A **User** can be a **host** or a **guest**.
 - A **User** (host) can have multiple **Properties**.
@@ -102,4 +102,28 @@ Represents a payment transaction for a booking.
 - A **Review** belongs to a **Property** and is written by a **User**.
 - A **Payment** is associated with one **Booking**.
 
+# Feature Breakdown
+
+## API Documentation
+OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
+Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
+GraphQL: Offers a flexible and efficient query mechanism for interacting with the backend.
+## User Authentication
+Endpoints: /users/, /users/{user_id}/
+Features: Register new users, authenticate, and manage user profiles.
+## Property Management
+Endpoints: /properties/, /properties/{property_id}/
+Features: Create, update, retrieve, and delete property listings.
+## Booking System
+Endpoints: /bookings/, /bookings/{booking_id}/
+Features: Make, update, and manage bookings, including check-in and check-out details.
+## Payment Processing
+Endpoints: /payments/
+Features: Handle payment transactions related to bookings.
+## Review System
+Endpoints: /reviews/, /reviews/{review_id}/
+Features: Post and manage reviews for properties.
+## Database Optimizations
+Indexing: Implement indexes for fast retrieval of frequently accessed data.
+Caching: Use caching strategies to reduce database load and improve performance.
 
