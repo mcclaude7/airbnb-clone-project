@@ -127,3 +127,36 @@ Features: Post and manage reviews for properties.
 Indexing: Implement indexes for fast retrieval of frequently accessed data.
 Caching: Use caching strategies to reduce database load and improve performance.
 
+# API Security
+
+To ensure user trust and platform integrity, our project will implement several key backend security measures:
+
+## Key Security Measures
+- Authentication
+We will use token-based authentication (e.g., JWT) to verify user identity and ensure that only authorized users can access protected endpoints.
+
+- Authorization
+Role-based access control will be used to ensure that only users with the correct permissions (e.g., host, admin) can perform certain actions.
+
+- Rate Limiting
+To prevent abuse and DDoS attacks, we will implement rate limiting to restrict the number of requests per user/IP in a given time period.
+
+- Input Validation & Sanitization
+All API inputs will be validated to prevent injection attacks and ensure data integrity.
+
+- HTTPS/SSL Enforcement
+All API traffic will be encrypted to prevent man-in-the-middle attacks and protect sensitive data in transit.
+
+## Why Security Is Crucial
+- Protecting User Data
+Usernames, passwords, and personal information must be kept confidential to maintain trust.
+
+- Securing Payments
+Any payment-related endpoints must be protected against tampering to avoid fraud or financial loss.
+
+- Preventing Unauthorized Actions
+A secure system ensures only rightful users can modify listings, bookings, or post reviews.
+
+- Maintaining Platform Integrity
+Preventing spam, abuse, and unauthorized data scraping helps protect our community and data value.
+
