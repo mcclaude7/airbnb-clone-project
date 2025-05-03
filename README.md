@@ -160,3 +160,26 @@ A secure system ensures only rightful users can modify listings, bookings, or po
 - Maintaining Platform Integrity
 Preventing spam, abuse, and unauthorized data scraping helps protect our community and data value.
 
+# CI/CD Pipeline
+
+## What is CI/CD?
+CI/CD stands for Continuous Integration and Continuous Deployment/Delivery.
+It is a development practice that automates the process of integrating code changes, running tests, and deploying applications. This ensures that code updates are reliable, consistent, and delivered faster to users.
+
+## Importance in This Project
+Faster Development Cycles: Automates testing and deployment so developers can focus on building features.
+
+Improved Code Quality: Ensures that code is tested before it reaches production.
+
+Early Bug Detection: Catch integration issues and bugs earlier in the pipeline.
+
+Seamless Deployment: Automates production and staging deployments to minimize human error.
+
+## Tools We May Use
+GitHub Actions – Automate workflows for testing and deployment directly from GitHub.
+
+Docker – Containerize the application for consistent environments across development, testing, and production.
+
+Heroku / AWS / Render – For automated deployment of our services.
+
+PostgreSQL – Used in conjunction with Docker for persistent and isolated database testing.
