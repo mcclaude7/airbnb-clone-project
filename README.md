@@ -53,3 +53,28 @@ The goal of this design is to create a clean, intuitive, and responsive interfac
 ### 💡 Importance of a User-Friendly Design
 A user-friendly design enhances **trust, engagement, and conversion rates**. When users can navigate easily and achieve their goals quickly, they are more likely to stay longer, explore listings, and finalize bookings. Clear layouts, readable typography, and intuitive interactions make the platform accessible to a wider audience and reduce friction throughout the user journey.
 
+#### Exploring the Figma Environment
+
+**Objective:** Understand and explore the Figma environment to identify key design properties.
+
+#### 1. Color Styles
+- **Primary Color:** `#1A73E8`
+- **Secondary Color:** `#F4B400`
+- **Background Color:** `#FFFFFF`
+- **Text Color:** `#333333`
+- **Accent Color:** `#FF5252`
+
+#### 2. Typography
+- **Heading 1:** Roboto, Bold, 32px
+- **Heading 2:** Roboto, Medium, 24px
+- **Body Text:** Roboto, Regular, 16px
+- **Caption:** Roboto, Light, 12px
+
+#### 3. Importance of Identifying Design Properties
+Identifying design properties in a mockup is crucial because:  
+1. **Consistency:** Ensures a unified look and feel across all screens and components.  
+2. **Efficiency:** Developers and designers can implement designs faster with clear specifications.  
+3. **Accessibility:** Helps maintain readability and visual hierarchy, making the UI user-friendly.  
+4. **Collaboration:** Creates a shared language between designers, developers, and stakeholders.  
+5. **Scalability:** Makes it easier to update and maintain the design system as the project grows.
+
