@@ -116,3 +116,21 @@ Identifying design properties in a mockup is crucial because:
   - Identify and report bugs and performance issues.
   - Verify that new features meet requirements.
 - **Cont**
+
+### UI Component Patterns
+
+**Objective:** Begin exploring the UI components for the AirBnB Clone project.
+
+#### Planned Components
+
+1. **Navbar**
+   - Provides site navigation links and branding.
+   - Includes login/signup buttons and search functionality.
+
+2. **Property Card**
+   - Displays individual property details such as image, title, price, and rating.
+   - Designed to be reusable across the property listing page.
+
+3. **Footer**
+   - Contains links to site policies, contact information, and social media.
+   - Provides consistent navigation at the bottom of pages.
