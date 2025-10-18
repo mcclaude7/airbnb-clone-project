@@ -78,3 +78,41 @@ Identifying design properties in a mockup is crucial because:
 4. **Collaboration:** Creates a shared language between designers, developers, and stakeholders.  
 5. **Scalability:** Makes it easier to update and maintain the design system as the project grows.
 
+### Project Roles and Responsibilities
+
+**Objective:** Define and document the roles and responsibilities within the project to ensure clarity and smooth collaboration.
+
+#### 1. Project Manager
+- **Responsibilities:**
+  - Oversee project progress and ensure timelines are met.
+  - Coordinate between teams and stakeholders.
+  - Manage risks and resolve blockers.
+- **Contribution:** Ensures the project stays on track and aligns with business goals.
+
+#### 2. Frontend Developers
+- **Responsibilities:**
+  - Implement UI components and design mockups.
+  - Ensure responsive and interactive interfaces.
+  - Collaborate with backend developers for data integration.
+- **Contribution:** Build the user-facing part of the application that users interact with.
+
+#### 3. Backend Developers
+- **Responsibilities:**
+  - Develop server-side logic and APIs.
+  - Manage databases and data flow.
+  - Ensure application security and scalability.
+- **Contribution:** Enable functionality and data management for a seamless user experience.
+
+#### 4. Designers
+- **Responsibilities:**
+  - Create wireframes, mockups, and prototypes.
+  - Define color schemes, typography, and visual guidelines.
+  - Collaborate with developers to ensure design fidelity.
+- **Contribution:** Ensure the application is visually appealing and user-friendly.
+
+#### 5. QA/Testers
+- **Responsibilities:**
+  - Write and execute test plans.
+  - Identify and report bugs and performance issues.
+  - Verify that new features meet requirements.
+- **Cont**
